@@ -41,6 +41,8 @@
       border: 3px solid $text-color;
 
       .menu-btn {
+        min-width: 100px;
+
         padding: 8px;
         margin: 8px;
 
@@ -55,9 +57,18 @@
       .menu-btn:hover {
         background-color: $secondary-background;
         border-color: $secondary-background;
-
-      
       }
+
+      .mat-accent .mat-slider-track-fill {
+        background-color: $secondary-background !important;
+      }
+      .mat-slider-thumb-label {
+        background-color: $secondary-background !important;
+      }
+      .mat-slider-thumb {
+        background-color: $secondary-background !important;
+      }
+
     }
   }
 
