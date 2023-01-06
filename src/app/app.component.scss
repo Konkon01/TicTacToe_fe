@@ -1,11 +1,16 @@
 ::ng-deep {
-  $background-color: #1d1d22;
+  $background-color: #222227;
+  $secondary-background: rgb(241, 205, 0);
   $text-color: white;
-  $secondary-background: gold;
+  $secondary-text-color: gold;
 
   h1, p {
     margin: 0px;
     color: $text-color;
+  }
+
+  a{
+    color: $secondary-text-color !important;
   }
 
   .content-container {
