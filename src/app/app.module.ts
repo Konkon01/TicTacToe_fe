@@ -9,6 +9,7 @@ import { GameRoomComponent } from './game/game-room/game-room.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { GameComponent } from './game/game.component';
 import { NotFoundComponent } from './game/not-found/not-found.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { NotFoundComponent } from './game/not-found/not-found.component';
     GameRoomComponent,
     GameComponent,
     NotFoundComponent,
+    PageNotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NoopAnimationsModule],
   providers: [],
