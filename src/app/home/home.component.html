@@ -1,1 +1,14 @@
-<p>home works!</p>
+<div class="content-container">
+  <div class="menu-board">
+    <h1>Create Game</h1>
+    <p>Choose a map size:</p>
+    <p>{{ mapSize }} X {{ mapSize }}</p>
+    <mat-slider min="4" max="24" step="1" [(value)]="mapSize">
+      <input matSliderThumb />
+    </mat-slider>
+    <div class="d-flex flex-column flex-sm-row align-items-center">
+      <button class="menu-btn">Create Game</button>
+      <button class="menu-btn">Join Game</button>
+    </div>
+  </div>
+</div>

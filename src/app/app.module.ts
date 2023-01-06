@@ -10,7 +10,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { GameComponent } from './game/game.component';
 import { NotFoundComponent } from './game/not-found/not-found.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-
+import { MatSliderModule } from '@angular/material/slider';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +21,12 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NotFoundComponent,
     PageNotFoundComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NoopAnimationsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NoopAnimationsModule,
+    MatSliderModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
